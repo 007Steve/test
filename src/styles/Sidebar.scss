@@ -1,0 +1,30 @@
+$primary-color: #ffe4d6;
+
+.sidebar {
+  background-color: $primary-color;
+  height: 100vh;
+  padding: 1rem;
+  width: 10%;
+}
+
+.sidebar__container {
+  display: flex;
+  height: 35%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 1.5rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .sidebar {
+    max-width: 5%;
+    padding: 0.25rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .sidebar {
+    max-width: 5%;
+    padding: 0rem;
+  }
+}

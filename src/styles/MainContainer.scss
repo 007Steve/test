@@ -1,0 +1,45 @@
+$nav-color: #cbb1a2;
+$nav-color-hover: #6749a5;
+
+.maincontainer {
+  margin-top: 3rem;
+  width: 100vw;
+}
+.maincontainer__title {
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 1rem;
+}
+.maincontainer__options {
+  display: flex;
+  margin-left: 1rem;
+  color: $nav-color;
+}
+.maincontainer__option {
+  padding: 0.5rem;
+}
+
+.maincontainer__option:hover {
+  color: $nav-color-hover;
+  cursor: pointer;
+}
+.maincontainer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1000px) {
+  .maincontainer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+}
